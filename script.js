@@ -15,4 +15,7 @@ button.addEventListener("click" ()=>{
 			}
 		}
 	}
+	else{
+		alert("please select a color to remove")
+	}
 })
