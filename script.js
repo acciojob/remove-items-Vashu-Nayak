@@ -10,7 +10,7 @@ button.addEventListener("click" ()=>{
 		let options=cselect.options
 		for(let i=0;i<options.length;i++){
 			if(options[i].value==soption){
-				cselect.remove(i)
+				cselect.classList.remove(i)
 				break
 			}
 		}
